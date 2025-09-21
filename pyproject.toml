@@ -1,0 +1,10 @@
+[project]
+name = "racoon-radar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "slack-bolt>=1.25.0",
+    "slack-cli-hooks<1.0.0",
+]
